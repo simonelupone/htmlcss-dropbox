@@ -66,6 +66,11 @@
     width: 100%;
 }
 
+.container-small {
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
 .row {
     display: flex;
     flex-wrap: wrap;
@@ -90,7 +95,7 @@
 }
 
 .col-4 {
-    width: 33.33%;
+    width: 30%;
 }
 
 .col-5 {
@@ -143,6 +148,26 @@
 
 .my-5 {
     margin: 50px 0;
+}
+
+.mx-1 {
+    margin: 0 10px;
+}
+
+.mx-2 {
+    margin: 0 20px;
+}
+
+.mx-3 {
+    margin: 0 30px;
+}
+
+.mx-4 {
+    margin: 0 40px;
+}
+
+.mx-5 {
+    margin: 0 50px;
 }
 
 .mt-1 {
@@ -358,6 +383,10 @@ a {
     gap: 30px;
 }
 
+.gap-4 {
+    gap: 40px;
+}
+
 /* #endregion Flex Utilities */
 
 /* #region Buttons */
@@ -423,4 +452,37 @@ h1 {
 
 .jumbotron img {
     max-width: 100%;
+}
+
+#plans {
+    padding: 180px 0px;
+}
+
+#plans .col-4 .container {
+    height: 100%;
+    padding: 0;
+    border: 1px solid #d0d0d3;
+}
+
+#plans .upper-container {
+    padding: 10px 0;
+    border-bottom: 1px solid #d0d0d3;
+}
+
+#plans .lower-container {
+    padding: 20px;
+}
+
+.link {
+    text-decoration: underline;
+    color: var(--blue-btn);
+}
+
+hr {
+    width: 50px;
+    color: #d0d0d3;
+}
+
+.fa-check {
+    color: var(--blue-btn);
 }
