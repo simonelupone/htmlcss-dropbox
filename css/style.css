@@ -69,6 +69,7 @@
 .container-small {
     max-width: 1000px;
     margin: 0 auto;
+    padding: 0 15px;
 }
 
 .row {
@@ -95,7 +96,7 @@
 }
 
 .col-4 {
-    width: 30%;
+    width: 33.33%;
 }
 
 .col-5 {
@@ -206,6 +207,18 @@
     margin-bottom: 40px;
 }
 
+.mr-1 {
+    margin-right: 10px;
+}
+
+.mr-2 {
+    margin-right: 20px;
+}
+
+.mr-3 {
+    margin-right: 30px;
+}
+
 .p-1 {
     padding: 10px;
 }
@@ -281,6 +294,10 @@ ul li {
 a {
     text-decoration: none;
     color: inherit;
+}
+
+.border-gray {
+    border: 1px solid #d0d0d3;
 }
 
 /* #endregion Utility */
@@ -455,21 +472,27 @@ h1 {
 }
 
 #plans {
-    padding: 180px 0px;
+    padding-top: 180px;
 }
 
-#plans .col-4 .container {
+.container-small .col-4 .container {
     height: 100%;
     padding: 0;
-    border: 1px solid #d0d0d3;
+    /* border: 1px solid #d0d0d3; */
 }
 
-#plans .upper-container {
+.container-small .col-12 .container {
+    height: 100%;
+    padding: 0;
+    /* border: 1px solid #d0d0d3; */
+}
+
+.container-small .upper-container {
     padding: 10px 0;
     border-bottom: 1px solid #d0d0d3;
 }
 
-#plans .lower-container {
+.container-small .lower-container {
     padding: 20px;
 }
 
