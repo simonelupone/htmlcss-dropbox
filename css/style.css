@@ -56,14 +56,15 @@
 
 /* #region Utility */
 .container {
-    width: 100%;
     max-width: 1200px;
     margin: 0 auto;
     padding: 0 15px;
 }
 
 .container-fluid {
-    width: 100%;
+    max-width: 100%;
+    margin: 0 auto;
+    padding: 0 15px;
 }
 
 .container-small {
@@ -415,8 +416,22 @@ a {
     text-decoration: none;
     cursor: pointer;
     transition: background 0.3s;
+}
+
+.blue {
     background: var(--blue-btn);
     color: #fff;
+}
+
+.white {
+    background: #FFF;
+    color: #000;
+    border: 1px solid #000;
+    width: fit-content;
+}
+
+.btn.white:hover {
+    color: #FFF;
 }
 
 .btn:hover {
@@ -467,7 +482,8 @@ h1 {
     margin: 0 auto;
 }
 
-.jumbotron img {
+.jumbotron img,
+.partner img {
     max-width: 100%;
 }
 
@@ -475,12 +491,7 @@ h1 {
     padding-top: 180px;
 }
 
-.container-small .col-4 .container {
-    height: 100%;
-    padding: 0;
-    /* border: 1px solid #d0d0d3; */
-}
-
+.container-small .col-4 .container,
 .container-small .col-12 .container {
     height: 100%;
     padding: 0;
@@ -508,4 +519,12 @@ hr {
 
 .fa-check {
     color: var(--blue-btn);
+}
+
+.customers {
+    padding: 180px 0;
+}
+
+.customers a {
+    text-decoration: underline;
 }
