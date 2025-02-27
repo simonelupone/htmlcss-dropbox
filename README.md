@@ -24,3 +24,7 @@
 ## 🔄 Requisiti GitHub  
 
 📌 **Numero minimo di push richiesti:** **17**  
+
+## Anteprima
+
+[-> PREVIEW <-](https://simonelupone.github.io/htmlcss-dropbox/)
