@@ -465,8 +465,6 @@ header ul li:hover a:not(.btn) {
     cursor: pointer;
 }
 
-main {}
-
 .jumbotron {
     padding-top: 120px;
     background: var(--jumbo);
@@ -527,4 +525,19 @@ hr {
 
 .customers a {
     text-decoration: underline;
+}
+
+footer {
+    /* max-height: 100%; */
+    background: #000;
+    color: #FFF;
+}
+
+footer li {
+    margin-block: 10px;
+}
+
+footer li a:hover {
+    text-decoration: underline;
+    color: #0044b2;
 }
